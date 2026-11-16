@@ -1,0 +1,4 @@
+module Sailfish.Silica
+singleton Theme 1.0 Theme.qml
+Label 1.0 Label.qml
+TextSwitch 1.0 TextSwitch.qml

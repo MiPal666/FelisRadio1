@@ -1,0 +1,25 @@
+TARGET = harbour-felisradio1
+CONFIG += sailfishapp_no_deploy_qml sailfishapp c++11
+SOURCES += src/main.cpp
+isEmpty(FELISRADIO1_VERSION): FELISRADIO1_VERSION = 0.1.0-22
+version_header.input = $$PWD/src/felisradio1_version.h.in
+version_header.output = $$OUT_PWD/felisradio1_version.h
+QMAKE_SUBSTITUTES += version_header
+INCLUDEPATH += $$OUT_PWD
+TRANSLATIONS += translations/harbour-felisradio1-cs.ts
+qml_root.files = $$files(qml/*.qml)
+qml_root.files += $$files(qml/*.js)
+qml_root.path = /usr/share/$${TARGET}/qml
+qml_pages.files = $$files(qml/pages/*.qml)
+qml_pages.path = /usr/share/$${TARGET}/qml/pages
+qml_cover.files = $$files(qml/cover/*.qml)
+qml_cover.path = /usr/share/$${TARGET}/qml/cover
+qml_images.files = qml/images/felisradio1.png
+qml_images.path = /usr/share/$${TARGET}/qml/images
+python.files = $$files(python/felisradio1/*.py)
+python.path = /usr/share/$${TARGET}/python/felisradio1
+INSTALLS += qml_root qml_pages qml_cover qml_images python
+SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
+DISTFILES += harbour-felisradio1.desktop rpm/harbour-felisradio1.spec README.md README.en.md LICENSE COPYRIGHT THIRD_PARTY.md src/felisradio1_version.h.in
+
+DISTFILES += THIRD_PARTY.md docs/DEPENDENCIES.json

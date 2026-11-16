@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Felis Radio 1
+Exec=harbour-felisradio1
+Icon=harbour-felisradio1
+X-Nemo-Application-Type=silica-qt5
+
+[X-Sailjail]
+OrganizationName=cz.feliscatus
+ApplicationName=felisradio1
+Permissions=Internet;Audio

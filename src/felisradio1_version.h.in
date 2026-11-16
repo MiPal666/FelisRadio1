@@ -1,0 +1,2 @@
+#pragma once
+#define FELISRADIO1_BUILD_VERSION \"$$FELISRADIO1_VERSION\"

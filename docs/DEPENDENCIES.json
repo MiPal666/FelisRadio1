@@ -1,0 +1,56 @@
+{
+  "python": "3.11",
+  "packages": {
+    "PyChromecast": {
+      "version": "14.1.1",
+      "file": "pychromecast-14.1.1-py2.py3-none-any.whl",
+      "sha256": "c7a4f56790b3b4c3790baf7426a0ee9345a0bf082effe485b1f23eb049f1ca54"
+    },
+    "casttube": {
+      "version": "0.2.1",
+      "file": "casttube-0.2.1-py3-none-any.whl",
+      "sha256": "36f118007f9eead3959cf30de03c1640b53a263569ff2a3971c0521826c835b2"
+    },
+    "certifi": {
+      "version": "2026.10.23",
+      "file": "certifi-2026.10.23-py3-none-any.whl",
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
+    },
+    "charset-normalizer": {
+      "version": "3.5.2",
+      "file": "charset_normalizer-3.5.2-py3-none-any.whl",
+      "sha256": "b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685"
+    },
+    "idna": {
+      "version": "3.20",
+      "file": "idna-3.20-py3-none-any.whl",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    "ifaddr": {
+      "version": "0.2.0",
+      "file": "ifaddr-0.2.0-py3-none-any.whl",
+      "sha256": "085e0305cfe6f16ab12d72e2024030f5d52674afad6911bb1eee207177b8a748"
+    },
+    "protobuf": {
+      "version": "6.33.5",
+      "file": "protobuf-6.33.5-py3-none-any.whl",
+      "sha256": "69915a973dd0f60f31a08b8318b73eab2bd6a392c79184b3612226b0a3f8ec02"
+    },
+    "requests": {
+      "version": "2.34.2",
+      "file": "requests-2.34.2-py3-none-any.whl",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+    },
+    "urllib3": {
+      "version": "2.8.0",
+      "file": "urllib3-2.8.0-py3-none-any.whl",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    },
+    "zeroconf": {
+      "version": "0.154.0",
+      "file": "zeroconf-0.154.0.tar.gz",
+      "sha256": "830315497af9bbd75924c2218cd3b64f0bde0e808ee316aabb5d9288836c0c43"
+    }
+  },
+  "source": "FelisMusic-SFOS RC1 runtime; Cast dependencies only"
+}
