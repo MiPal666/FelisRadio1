@@ -4,8 +4,8 @@
 
 Neoficiální přehrávač českého [Radia 1](https://www.radio1.cz/) pro Sailfish OS.
 Součást rodiny aplikací Felis. Vyvíjeno a testováno na Jolla Phone 2026 (aarch64).
-Aktuálně připravený vývojový build: **0.1.0-22**; úpravy vzhledu a překladů
-čekají na závěrečné ověření na telefonu.
+Veřejná verze: **1.0.0** (RPM **1.0.0-1**). Funkce byly ověřeny
+na Jolla Phone 2026 v předchozím buildu 0.1.0-22.
 
 <img src="qml/images/felisradio1.png" alt="Felis Radio 1" width="200">
 

@@ -4,8 +4,8 @@
 
 An unofficial player for the Czech [Radio 1](https://www.radio1.cz/) station,
 part of the Felis app family. Developed and tested on Jolla Phone 2026 (aarch64).
-The current development build is **0.1.0-22**; its visual changes and translations
-still require final verification on the phone.
+Public version: **1.0.0** (RPM **1.0.0-1**). Features were verified
+on Jolla Phone 2026 in the preceding build 0.1.0-22.
 
 ## Features
 

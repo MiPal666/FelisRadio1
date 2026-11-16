@@ -1,7 +1,7 @@
 Name:       harbour-felisradio1
 Summary:    Radio 1 live player for Sailfish OS
-Version:    0.1.0
-Release:    22
+Version:    1.0.0
+Release:    1
 Group:      Qt/Qt
 License:    GPL-3.0-or-later
 Source0:    %{name}-%{version}.tar.bz2

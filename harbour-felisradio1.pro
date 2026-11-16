@@ -1,7 +1,7 @@
 TARGET = harbour-felisradio1
 CONFIG += sailfishapp_no_deploy_qml sailfishapp c++11
 SOURCES += src/main.cpp
-isEmpty(FELISRADIO1_VERSION): FELISRADIO1_VERSION = 0.1.0-22
+isEmpty(FELISRADIO1_VERSION): FELISRADIO1_VERSION = 1.0.0-1
 version_header.input = $$PWD/src/felisradio1_version.h.in
 version_header.output = $$OUT_PWD/felisradio1_version.h
 QMAKE_SUBSTITUTES += version_header
